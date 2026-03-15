@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- 
+  GreenHaven Community Garden — About Page (about.html)
+  Author: Peter Pham
+  Description: Tells the story of GreenHaven, its mission and values,
+  and introduces the team members. Uses grid layouts and scroll animations.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about GreenHaven Community Garden — our history, mission, values, and the passionate team behind the garden.">
+  <title>About Us — GreenHaven Community Garden</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== Navigation Bar ========== -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo" aria-label="GreenHaven Home">
+        <span class="nav-logo-icon">🌿</span>
+        Green<span>Haven</span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="programmes.html">Programmes</a>
+        <a href="events.html">Events</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+      <button class="hamburger" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== Page Banner ========== -->
+  <section class="page-banner">
+    <div class="container">
+      <h1>About Us</h1>
+      <p>Discover the story behind GreenHaven and the people who make it grow.</p>
+      <!-- Breadcrumb for navigation context -->
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span>About</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Main Content ========== -->
+  <main>
+
+    <!-- Our Story Section — two-column grid layout -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="about-intro">
+          <div class="about-intro-text fade-in-left">
+            <h2>Our Story</h2>
+            <p>GreenHaven Community Garden began in 2018 when a small group of neighbours transformed a neglected car park on Garden Lane into a vibrant green space. What started with just six raised beds has grown into a thriving community hub with over 60 plots, a greenhouse, a composting station, and a dedicated education area.</p>
+            <p>Today, GreenHaven serves more than 150 active members from all walks of life. We believe that everyone deserves access to fresh, healthy food and a supportive community. Whether you are an experienced gardener or picking up a trowel for the first time, there is a place for you here.</p>
+            <a href="programmes.html" class="btn btn-primary">Explore Our Programmes</a>
+          </div>
+          <div class="fade-in-right">
+            <!-- Image of the garden from above -->
+            <img src="images/about-garden.png" alt="Aerial view of GreenHaven community garden with organised raised beds and people gardening">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission & Values Section -->
+    <section class="section-padding" style="background: var(--clr-bg-alt);">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Our Values</h2>
+          <p>The principles that guide everything we do at GreenHaven.</p>
+        </div>
+
+        <!-- Values displayed as icon cards using CSS Grid -->
+        <div class="values-grid">
+          <div class="value-card fade-in">
+            <div class="value-icon">🌱</div>
+            <h3>Sustainability</h3>
+            <p>We practise organic gardening methods, composting, and water conservation to care for our environment for future generations.</p>
+          </div>
+          <div class="value-card fade-in">
+            <div class="value-icon">🤝</div>
+            <h3>Community</h3>
+            <p>We bring people together across ages, backgrounds, and abilities. The garden is a place where friendships grow alongside the flowers.</p>
+          </div>
+          <div class="value-card fade-in">
+            <div class="value-icon">📚</div>
+            <h3>Education</h3>
+            <p>Through workshops, talks, and hands-on learning, we empower people with the knowledge and skills to grow their own food.</p>
+          </div>
+          <div class="value-card fade-in">
+            <div class="value-icon">♻️</div>
+            <h3>Inclusivity</h3>
+            <p>Everyone is welcome at GreenHaven. We offer accessible raised beds, free memberships for those in need, and multilingual resources.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Meet the Team Section -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Meet the Team</h2>
+          <p>The dedicated volunteers who keep GreenHaven blooming.</p>
+        </div>
+
+        <!-- Team member cards — CSS Grid with avatar circles -->
+        <div class="team-grid">
+          <div class="team-member fade-in">
+            <div class="member-avatar">🌻</div>
+            <h3>Anna Chen</h3>
+            <p class="member-role">Garden Director</p>
+            <p>Anna founded GreenHaven in 2018 and oversees the garden's operations. She is a qualified horticulturist with a passion for urban green spaces.</p>
+          </div>
+
+          <div class="team-member fade-in">
+            <div class="member-avatar">🌾</div>
+            <h3>Marcus Obi</h3>
+            <p class="member-role">Workshop Coordinator</p>
+            <p>Marcus organises all of our workshops and educational events. He specialises in organic growing techniques and loves sharing his knowledge.</p>
+          </div>
+
+          <div class="team-member fade-in">
+            <div class="member-avatar">🦋</div>
+            <h3>Emily Frost</h3>
+            <p class="member-role">Volunteer Manager</p>
+            <p>Emily coordinates our wonderful team of volunteers. She ensures everyone feels welcome and has a meaningful role in the garden.</p>
+          </div>
+
+          <div class="team-member fade-in">
+            <div class="member-avatar">🐝</div>
+            <h3>David Park</h3>
+            <p class="member-role">Youth Programme Lead</p>
+            <p>David runs our Little Sprouts kids' club and school partnership programmes. He is a former primary school teacher with a green thumb.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>🌿 GreenHaven</h3>
+          <p>A community garden and sustainability hub bringing neighbours together through gardening, workshops, and eco-friendly events since 2018.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Twitter / X">𝕏</a>
+            <a href="#" aria-label="Instagram">📷</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programmes.html">Programmes</a></li>
+            <li><a href="events.html">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <p>📍 42 Garden Lane, Millbrook</p>
+          <p>📞 (01onal) 555-0178</p>
+          <p>✉️ hello@greenhaven.org</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 GreenHaven Community Garden. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
