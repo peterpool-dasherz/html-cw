@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!-- 
+  GreenHaven Community Garden — Events Page (events.html)
+  Description: Lists upcoming and past events at GreenHaven. Each event
+  is displayed as a card with date badge, details, and tags. Uses flexbox layout.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stay up to date with upcoming events, workshops, and seasonal activities at GreenHaven Community Garden.">
+  <title>Events — GreenHaven Community Garden</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== Navigation Bar ========== -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo" aria-label="GreenHaven Home">
+        <span class="nav-logo-icon">🌿</span>
+        Green<span>Haven</span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programmes.html">Programmes</a>
+        <a href="events.html" class="active">Events</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+      <button class="hamburger" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== Page Banner ========== -->
+  <section class="page-banner">
+    <div class="container">
+      <h1>Events &amp; News</h1>
+      <p>Join us for workshops, seasonal celebrations, and community get-togethers.</p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span>Events</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Main Content ========== -->
+  <main>
+
+    <!-- Upcoming Events Section -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Upcoming Events</h2>
+          <p>Mark your calendars — here is what is coming up at GreenHaven!</p>
+        </div>
+
+        <!-- Event list — each card has a coloured date badge and details -->
+        <div class="event-list">
+
+          <!-- Event 1 -->
+          <article class="event-card fade-in">
+            <div class="event-date-badge">
+              <span class="day">22</span>
+              <span class="month">Mar</span>
+            </div>
+            <div class="event-details">
+              <h3>Spring Planting Festival</h3>
+              <div class="event-meta">
+                <span>🕐 10:00 AM – 3:00 PM</span>
+                <span>📍 Main Garden</span>
+              </div>
+              <p>Kick off the growing season with our annual planting festival! Enjoy free seed packs, planting demonstrations, live music, and refreshments. Bring the whole family.</p>
+              <span class="event-tag">Free Entry</span>
+            </div>
+          </article>
+
+          <!-- Event 2 -->
+          <article class="event-card fade-in">
+            <div class="event-date-badge">
+              <span class="day">05</span>
+              <span class="month">Apr</span>
+            </div>
+            <div class="event-details">
+              <h3>Composting Masterclass</h3>
+              <div class="event-meta">
+                <span>🕐 2:00 PM – 4:00 PM</span>
+                <span>📍 Education Area</span>
+              </div>
+              <p>Learn the science behind composting with our expert Marcus. Topics include hot composting, worm farms, and bokashi bins. Materials provided — just bring your curiosity.</p>
+              <span class="event-tag">Workshop</span>
+            </div>
+          </article>
+
+          <!-- Event 3 -->
+          <article class="event-card fade-in">
+            <div class="event-date-badge">
+              <span class="day">19</span>
+              <span class="month">Apr</span>
+            </div>
+            <div class="event-details">
+              <h3>Earth Day Community Clean-Up</h3>
+              <div class="event-meta">
+                <span>🕐 9:00 AM – 12:00 PM</span>
+                <span>📍 Garden &amp; Surrounding Streets</span>
+              </div>
+              <p>Celebrate Earth Day by helping us tidy up the garden and surrounding neighbourhood. Gloves and bags provided. Refreshments and prizes for volunteers!</p>
+              <span class="event-tag">Volunteer</span>
+            </div>
+          </article>
+
+          <!-- Event 4 -->
+          <article class="event-card fade-in">
+            <div class="event-date-badge">
+              <span class="day">10</span>
+              <span class="month">May</span>
+            </div>
+            <div class="event-details">
+              <h3>Wildflower Seed Bomb Workshop</h3>
+              <div class="event-meta">
+                <span>🕐 11:00 AM – 1:00 PM</span>
+                <span>📍 Education Area</span>
+              </div>
+              <p>Create your own wildflower seed bombs to take home or scatter around the neighbourhood. A fun, hands-on activity for adults and children alike.</p>
+              <span class="event-tag">Family Friendly</span>
+            </div>
+          </article>
+
+          <!-- Event 5 -->
+          <article class="event-card fade-in">
+            <div class="event-date-badge">
+              <span class="day">14</span>
+              <span class="month">Jun</span>
+            </div>
+            <div class="event-details">
+              <h3>Summer Solstice BBQ &amp; Open Garden</h3>
+              <div class="event-meta">
+                <span>🕐 4:00 PM – 9:00 PM</span>
+                <span>📍 Main Garden &amp; Pavilion</span>
+              </div>
+              <p>Celebrate the longest day of the year with a community BBQ. Tour the garden, enjoy live music, and share food made with GreenHaven-grown produce.</p>
+              <span class="event-tag">Social</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Past Events Section -->
+    <section class="section-padding" style="background: var(--clr-bg-alt);">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Past Events</h2>
+          <p>Take a look at some of the events we have hosted recently.</p>
+        </div>
+
+        <div class="card-grid">
+          <!-- Past Event Card 1 -->
+          <div class="card fade-in">
+            <div class="card-image">
+              <img src="images/workshop-event.png" alt="Gardening workshop with participants around a table of seedlings">
+            </div>
+            <div class="card-body">
+              <span class="card-tag">February 2026</span>
+              <h3>Winter Pruning Workshop</h3>
+              <p>Over 30 members learned essential pruning techniques for fruit trees and shrubs during this popular winter session.</p>
+            </div>
+          </div>
+
+          <!-- Past Event Card 2 -->
+          <div class="card fade-in">
+            <div class="card-image">
+              <img src="images/harvest-produce.png" alt="Table full of freshly harvested vegetables">
+            </div>
+            <div class="card-body">
+              <span class="card-tag">October 2025</span>
+              <h3>Harvest Festival</h3>
+              <p>Our annual harvest festival brought over 200 visitors to the garden! Members shared their produce, homemade preserves, and gardening tips.</p>
+            </div>
+          </div>
+
+          <!-- Past Event Card 3 -->
+          <div class="card fade-in">
+            <div class="card-image">
+              <img src="images/composting-workshop.png" alt="Group learning about composting at the community garden">
+            </div>
+            <div class="card-body">
+              <span class="card-tag">September 2025</span>
+              <h3>School Visit Programme</h3>
+              <p>We hosted three local primary schools for a day of garden-based learning. Children planted seeds and explored the wildlife habitat area.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="section-padding text-center">
+      <div class="container fade-in">
+        <h2 style="font-family: var(--font-heading); font-size: 2rem; margin-bottom: 0.5rem; color: var(--clr-primary-dark);">Never Miss an Event</h2>
+        <p style="max-width: 550px; margin: 0 auto var(--space-md); color: var(--clr-text-light);">Follow us on social media or get in touch to stay updated on all upcoming events and activities.</p>
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>🌿 GreenHaven</h3>
+          <p>A community garden and sustainability hub bringing neighbours together through gardening, workshops, and eco-friendly events since 2018.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Twitter / X">𝕏</a>
+            <a href="#" aria-label="Instagram">📷</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programmes.html">Programmes</a></li>
+            <li><a href="events.html">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <p>📍 42 Garden Lane, Millbrook</p>
+          <p>📞 (01onal) 555-0178</p>
+          <p>✉️ hello@greenhaven.org</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 GreenHaven Community Garden. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
