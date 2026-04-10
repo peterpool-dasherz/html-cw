@@ -1,5 +1,5 @@
 /* ============================================================
-   GreenHaven Community Garden — Shared Stylesheet
+   GreenHaven Community Garden - Shared Stylesheet
    Author: Peter Pham
    Description: Main stylesheet for the GreenHaven community
    garden website. Uses CSS custom properties, flexbox, grid,
@@ -14,7 +14,7 @@
    1. CSS Custom Properties (Design Tokens)
    ============================================================ */
 :root {
-  /* Primary green palette — earthy, natural tones */
+  /* Primary green palette - earthy, natural tones */
   --clr-primary: #2d6a4f;
   --clr-primary-light: #40916c;
   --clr-primary-dark: #1b4332;
@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--clr-accent);
 }
 
-/* Leaf icon — using a simple CSS shape */
+/* Leaf icon - using a simple CSS shape */
 .nav-logo-icon {
   width: 32px;
   height: 32px;
@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--clr-primary-pale);
 }
 
-/* Hamburger menu button — hidden on desktop */
+/* Hamburger menu button - hidden on desktop */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -654,7 +654,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ============================================================
-   11. About Page — Team Members & Timeline
+   11. About Page - Team Members & Timeline
    ============================================================ */
 .team-grid {
   display: grid;
@@ -1403,7 +1403,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ============================================================
-   20. Responsive Design — Media Queries
+   20. Responsive Design - Media Queries
    ============================================================ */
 
 /* Tablet (max-width: 992px) */

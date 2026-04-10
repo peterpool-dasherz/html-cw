@@ -1,5 +1,5 @@
 /* ============================================================
-   GreenHaven Community Garden — Shared JavaScript
+   GreenHaven Community Garden - Shared JavaScript
    Author: Peter Pham
    Description: Handles all interactive functionality including
    mobile menu, dark mode, scroll animations, gallery lightbox,
@@ -220,13 +220,13 @@ document.addEventListener('DOMContentLoaded', function () {
       // Clear previous errors
       clearErrors();
 
-      // Validate name — must not be empty
+      // Validate name - must not be empty
       if (nameField && nameField.value.trim() === '') {
         showError(nameField, 'Please enter your name.');
         isValid = false;
       }
 
-      // Validate email — must match email pattern
+      // Validate email - must match email pattern
       if (emailField) {
         var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (emailField.value.trim() === '') {
@@ -238,13 +238,13 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       }
 
-      // Validate subject — must not be empty
+      // Validate subject - must not be empty
       if (subjectField && subjectField.value.trim() === '') {
         showError(subjectField, 'Please enter a subject.');
         isValid = false;
       }
 
-      // Validate message — must be at least 10 characters
+      // Validate message - must be at least 10 characters
       if (messageField) {
         if (messageField.value.trim() === '') {
           showError(messageField, 'Please enter a message.');
