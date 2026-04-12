@@ -1,0 +1,77 @@
+.column-layout {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.logo-name-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 10;
+
+}
+
+.slider {
+    display: flex;
+    /* justify-content: center; */
+    border-bottom: 1px dashed black;
+    border-top: 1px solid black;
+    overflow: scroll;
+
+
+}
+
+.image-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 9;
+    border-left: 1px solid black;
+
+}
+
+.head-text {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    border: hidden;
+    min-height: 70vh;
+}
+
+
+.Menu {
+    display: flex;
+    flex: 2;
+    border-right: 1px dashed gray;
+}
+
+.Article {
+    display: flex;
+    flex: 8;
+
+}
+
+.List {
+    display: flex;
+    flex: 2;
+    border-left: 1px dashed gray;
+}
+
+.footer {
+    border-top: 1px solid black;
+    text-align: center;
+}

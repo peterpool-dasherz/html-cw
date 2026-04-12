@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Task 3</title>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        function calcRectangleArea(aWidth, aHeight) {
+            var area = aWidth * aHeight;
+            return area;
+        }
+
+        function showArea(width, height) {
+            var rectangleArea = calcRectangleArea(width, height);
+            var message = "The area is ";
+
+            console.log(message + rectangleArea);
+            document.getElementById("output").innerHTML += message + rectangleArea + "<br>";
+        }
+
+        showArea(10.5, 3);
+        showArea(8, 4);
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        :root {
+            --main-color: blue;
+            --padding: 16px;
+            --width: 100px;
+            --height: 100px;
+        }
+
+        .box {
+            width: var(--width);
+            height: var(--height);
+            background-color: red;
+            animation: change-background-color-percent 6s ease-in-out infinite;
+
+        }
+
+        .box:hover {
+            animation-play-state: paused;
+            transform: scale(1.5);
+            transition: transform 0.5s ease;
+            cursor: pointer;
+        }
+        @keyframes change-background-color-percent {
+            0% {background-color: crimson; margin-left: 0px;}
+            25% {background-color: green; margin-left: 10px;}
+            50% {background-color: pink; margin-left: 25px;}
+            100% {background-color: indigo; margin-left: 0px;}
+        }
+            
+        .movement-box {
+            width: var(--width);
+            height: var(--height);
+            position: relative;
+            background-color: red;
+            animation-name: move-box;
+            animation-duration: 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes move-box {
+            0% {background-color: red; left: 0px; top: 0px;}
+            25% {background-color: yellow; left: 200px; top: 0px;}
+            50% {background-color: blue; left: 200px; top: 200px;}
+            75% {background-color: green; left: 0px; top: 200px;}
+            100% {background-color: red; left: 0px; top: 0px;} 
+        }
+
+        .circle {
+            width: var(--width);
+            height: var(--height);
+            background-color: silver;
+            border-radius: 50%;
+            border: 10px solid green;
+            animation: load-in-circle 2s linear infinite;
+
+        }
+        @keyframes load-in-circle {
+            0% {border-top: 10px solid red; transform: rotate(0deg);}
+            20% {border-top: 10px solid red; transform: rotate(72deg);}
+            40% {border-top: 10px solid red; transform: rotate(144deg);}
+            60% {border-top: 10px solid red; transform: rotate(216deg);}
+            80% {border-top: 10px solid red; transform: rotate(288deg);}
+            100% {border-top: 10px solid red; transform: rotate(360deg);}
+        }
+        
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <div class = "box"></div>
+        <div class = "movement-box"></div>
+        <div class = "circle"></div>
+    </div>
+</body>
+</html>

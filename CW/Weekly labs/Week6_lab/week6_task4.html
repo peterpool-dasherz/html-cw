@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Task 4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        input, button {
+            padding: 8px 10px;
+            font-size: 16px;
+        }
+        button {
+            cursor: pointer;
+        }
+
+        #result {
+            margin-top: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>
+        Fahrenheit to Centigrade
+    </h2>
+
+    <input type = "number" id = "fahrenheit" placeholder = "Enter Fahrenheit" />
+    <button type = "button" onclick = "convertAndShow()">Submit</button>
+
+    <div id = "result"></div>
+
+    <script>
+        function fahrenheitToCentigrade(fahrenheit) {
+            var centigrade = (fahrenheit - 32) * 5 / 9;
+            return centigrade;
+        }
+
+        function convertAndShow() {
+            var input = document.getElementById("fahrenheit");
+            var result = document.getElementById("result");
+            var fahrenheit = Number(input.value);
+
+            if (input.value == "" || isNaN(fahrenheit)) {
+                result.innerHTML = "Please enter a valid numeric value.";
+                return;
+            }
+
+            var centigrade = fahrenheitToCentigrade(fahrenheit);
+            result.innerHTML = "";
+            result.innerHTML += fahrenheit + " Fahrenheit = " + centigrade + " Centigrade";
+        }
+    </script>
+</body>
+</html>

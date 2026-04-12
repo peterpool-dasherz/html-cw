@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="./3.FrontEnd/assets/style1.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="image-box">
+                <img src="./3.FrontEnd/assets/images/English-in-hand-with-words.png" alt="Lỗi hình Logo" />
+            </div>
+            <div class="company">
+                <div>Công ty Trách nhiệm hết hạn</div>
+                <div>Tư vấn giáo dục Vinh Danh</div>
+            </div>
+        </div>
+        <div class="slider">
+            <img name='image-slider' src="./3.FrontEnd/assets/images/sliders/Slider-44.jpg" alt="Lỗi hình Slider-44.jpg" />
+            <img name='image-slider' src="./3.FrontEnd/assets/images/sliders/Slider-55.jpg" alt="Lỗi hình Slider-55.jpg" />
+            <img name='image-slider' src="./3.FrontEnd/assets/images/sliders/Slider-66.jpg" alt="Lỗi hình Slider-44.jpg" />
+        </div>
+        <div class="main-content">
+            <div class="menu">
+                <h5>Menu</h5>
+
+                <ul class="ul-menu">
+                    <li>Menu Item 1</li>
+                    <li>Menu Item 2</li>
+                    <li>Menu Item 3</li>
+                    <li>Menu Item 4</li>
+                </ul>
+            </div>
+            <div class="form">
+                <h2 style="color: white; text-align: center;">Form tuyển bạn gái</h2>
+                <form>
+                    <div class="input-group">
+                        <!-- <label for="fname">Username:</label> -->
+                        <input type="text" id="username" name="username" onfocus="focusInputText(this);"
+                            onblur="unFocusInputText(this)" />
+                        <div class="label-text">
+                            <img src="./3.FrontEnd/assets/images/user_6051881.png" />
+                            <label for="username">Username</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="password" name="password" onfocus="focusInputText(this);"
+                            onblur="unFocusInputText(this)" />
+                        <div class="label-text">
+                            <img src="./3.FrontEnd/assets/images/keyhole_14254394.png" />
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="password" id="confirm-password" name="confirm-password"
+                            onfocus="focusInputText(this);" onblur="unFocusInputText(this)" />
+                        <div class="label-text">
+                            <img src="./3.FrontEnd/assets/images/keyhole_14254394.png" />
+                            <label for="confirm-password">Confirm Password</label>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" id="email" name="email" onfocus="focusInputText(this);"
+                            onblur="unFocusInputText(this)" />
+                        <div class="label-text">
+                            <img src="./3.FrontEnd/assets/images/send-mail_10505742.png" />
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: row; flex: 2;">
+                        <div class="input-group" style="flex: 1;">
+                            <input type="text" placeholder="First Name" id="first-name" name="first-name" />
+                        </div>
+                        <div class="input-group" style="flex: 1;">
+                            <input type="text" placeholder="Last Name" id="last-name" name="last-name" />
+                        </div>
+                    </div>
+
+                    <div class="input-group" style="height: 40px;">
+                        <select id="gender" name="gender" style="height: 40px;">
+                            <option value='0'>--- Gender ---</option>
+                            <option value='1'>Male</option>
+                            <option value='2'>Female</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group-row">
+                        <input type="checkbox" id="term-agreement" name="term-agreement" value="1"> 
+                        <label for="term-agreement">
+                            Do you agree to become my second girlfriend?
+                        </label>
+                    </div>
+
+                    <div class="input-group-row" style="justify-content: center;">
+                        <button class="button-text" type="button">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="list">
+                <h2>List</h2>
+            </div>
+        </div>
+        <div class="footer">Welcome
+            <div>Tôi là footer</div>
+            <img id="img-slider" src="./3.FrontEnd/assets/images/TrainRiolish_650x200.png" alt="Lỗi hình Slider" />
+
+        </div>
+    </div>
+
+    <script>
+        let imgSlider = document.getElementById("img-slider");
+        // if(imgSlider) {
+        //     imgSlider.setAttribute("src", "https://css-tricks.com/wp-content/uploads/2021/09/gap-1.svg");
+        // }
+
+        function focusInputText(inputPointer) {
+            let divInputText = inputPointer.nextElementSibling;
+            if (divInputText) {
+                // divInputText.setAttribute("visibility", "hidden");
+                divInputText.style.display = 'none';
+            }
+        }
+
+        function unFocusInputText(inputPointer) {
+            let divTextInput = inputPointer.nextElementSibling;
+            // console.log("Thẻ Div: ", divTextInput);
+
+            if (divTextInput) {
+                divTextInput.style.display = 'flex';
+            }
+        }
+    </script>
+</body>
+
+</html>

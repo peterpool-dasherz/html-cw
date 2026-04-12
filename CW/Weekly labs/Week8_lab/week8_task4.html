@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 8 Task 4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f4f4f4;
+
+        }
+
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 16px;
+            align-items: center;
+        }
+
+        input,
+        select,
+        button {
+            padding: 8px, 10px;
+            font-size: 16px;
+        }
+
+        canvas {
+            border: 1px solid #222;
+            background: #fff;
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Task 4: Mondrian Generator with Validation</h2>
+    <div class="controls">
+        <input type="text" id="Name" placeholder="Enter your name" />
+        <input type="number" id="Age" placeholder="Enter your age" />
+        <select id="EyeColor">
+            <option value="">Select your eye color</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="brown">Brown</option>
+        </select>
+        <button type="button" onclick="draw()">Draw</button>
+    </div>
+    <canvas id="mondrianCanvas" width="600" height="420"></canvas>
+    <script>
+        function drawBlock(ctx, x, y, w, h, color) {
+            ctx.fillStyle = color;
+            ctx.fillRect(x, y, w, h);
+            ctx.lineWidth = 10;
+            ctx.strokeRect(x, y, w, h);
+        }
+
+        function turnNameIntoColor(Name) {
+            if (Name.length > 6) {
+                return "white";
+            }
+            return "black";
+        }
+
+        function turnEyeColorIntoColor(EyeColor) {
+            var color = "black";
+            if (EyeColor == "green") {
+                color = "green";
+            } else if (EyeColor == "blue") {
+                color = "blue";
+            } else if (EyeColor == "brown") {
+                color = "brown";
+            }
+            return color;
+        }
+
+        function turnAgeIntoColor(Age) {
+            var color = "red";
+            if (Age < 30) {
+                color = "yellow";
+            }
+            return color;
+        }
+
+        function draw() {
+            var canvas = document.getElementById("mondrianCanvas");
+            var ctx = canvas.getContext("2d");
+            var Name = document.getElementById("Name").value.trim();
+            var Age = document.getElementById("Age").value.trim();
+            var EyeColor = document.getElementById("EyeColor").value.trim();
+
+            if (Name == "") {
+                alert("Please enter your name");
+                return;
+            }
+
+            if (Age == "" || isNaN(Number(Age))) {
+                alert("Please enter a valid age");
+                return;
+            }
+
+            if (EyeColor == "") {
+                alert("Please select your eye color");
+                return;
+            }
+
+            var Age = Number(Age);
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            drawBlock(ctx, 0, 0, 220, 160, turnNameIntoColor(Name));
+            drawBlock(ctx, 220, 0, 380, 160, "red");
+            drawBlock(ctx, 0, 160, 220, 260, turnAgeIntoColor(Age));
+            drawBlock(ctx, 220, 160, 380, 260, turnEyeColorIntoColor(EyeColor));
+
+            ctx.fillStyle = "#111";
+            ctx.font = "18px Arial";
+            ctx.fillText("Name: " + Name, 24, 30);
+            ctx.fillText("Age: " + Age, 24, 55);
+            ctx.fillText("EyeColor: " + EyeColor, 24, 80);
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 8 Task 1</title>
+</head>
+<body>
+    <h2>Simple IF statement</h2>
+    <div id = "result"></div>
+
+    <script>
+        var mark = 76;
+        var classification = "";
+
+        if (mark >= 80) {
+            classification = "Distinction";
+        } else if (mark >= 70) {
+            classification = "Merit";
+        } else if (mark >= 50) {
+            classification = "Pass";
+        } else {
+            classification = "Fail";
+        }
+
+        console.log("Mark: " + mark + "Classification: " + classification);
+        document.getElementById("result").innerHTML = "Mark: " + mark + "<br>Classification: " + classification;
+        
+    </script>
+</body>
+</html>

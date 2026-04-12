@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        .container {
+            border: 1px solid gray;
+            border-radius: 5px;
+            /* height: 400px; */
+            margin: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+        }
+
+        .flex-box-parent {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            /* flex: 12; */
+            row-gap: 20px;
+        }
+
+        .flex-box-children {
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding: 10px;
+            /* flex: 5; */
+            /* flex-grow: 5; */
+            width: 40%;
+        }
+
+        .code-box {
+            background-color: black;
+            height: 50px;
+            color: yellow;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to flex box model</h1>
+
+    <div class="container">
+        <h1>Related Properties</h1>
+        <div class="flex-box-parent">
+            <div class="flex-box-children">
+                <h5>1. Align Content Flexbox</h5>
+                <p>Almanac on Apr 17, 2013</p>
+                <p>align-content</p>
+                <div class="code-box">
+                    .element {align-item: space-around}
+                </div>
+            </div>
+            <div class="flex-box-children">
+                <h5>2. Justify Content Flexbox</h5>
+                <p>Almanac on Apr 17, 2013</p>
+                <p>justify-content</p>
+                <div class="code-box">
+                    .element {align-item: space-around}
+                </div>
+            </div>
+            <div class="flex-box-children">
+                <h5>3. Justify Content Flexbox</h5>
+                <p>Almanac on Apr 17, 2013</p>
+                <p>justify-content</p>
+                <div class="code-box">
+                    .element {align-item: space-around}
+                </div>
+            </div>
+            <div class="flex-box-children">
+                <h5>4. Justify Content Flexbox</h5>
+                <p>Almanac on Apr 17, 2013</p>
+                <p>justify-content</p>
+                <div class="code-box">
+                    .element {align-item: space-around}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

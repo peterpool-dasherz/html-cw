@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 8 Task 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+
+        canvas {
+            border: 1px solid #222;
+            background: #fff;
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+  <h2>Mondrian Generator</h2>
+  <canvas id = "mondrianCanvas" width = "600" height = "420"></canvas>
+  
+  <script>
+    function drawBlock(ctx, x, y, w, h, color) {
+        ctx.fillStyle = color;
+        ctx.fillRect(x, y, w, h);
+        ctx.strokeStyle = "#111";
+        ctx.lineWidth = 10;
+        ctx.strokeRect(x, y, w, h);
+    }
+
+    function turnNameintoColor(Name) {
+        if (Name.length > 6) {
+            return "white";
+        }
+        return "black";
+    }
+
+    function turnEyeColorIntoColor(EyeColor) {
+        var color = "black";
+        if (EyeColor == "green") {
+            color = "green";
+        } else if (EyeColor == "blue") {
+            color = "blue";
+        } else if (EyeColor == "brown") {
+            color = "brown";
+        }
+        return color;
+    }
+
+    function turnAgeIntoColor(Age) {
+        var color = "red";
+        if (Age < 30) {
+            color = "yellow"
+        }
+        return color;
+    }
+
+    function draw() {
+        var canvas = document.getElementById("mondrianCanvas");
+        var ctx = canvas.getContext("2d");
+
+        var Name = "Alexandra";
+        var Age = 24;
+        var EyeColor = "blue";
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        drawBlock(ctx, 0, 0, 220, 160, turnNameintoColor(Name));
+        drawBlock(ctx, 220, 0, 380, 160, "red");
+        drawBlock(ctx, 0, 160, 220, 260, turnAgeIntoColor(Age));
+        drawBlock(ctx, 220, 160, 380, 260, turnEyeColorIntoColor(EyeColor));
+
+        ctx.fillStyle = "#111";
+        ctx.font = "18px Arial";
+        ctx.fillText("Name: " + Name, 24, 30);
+        ctx.fillText("Age: " + Age, 24, 55);
+        ctx.fillText("EyeColor: " + EyeColor, 24, 80);
+    }
+
+    draw();
+  </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9 Task 3</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        canvas {
+            border: 1px solid #222;
+            background: #fff;
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>Task 3: Damien Hirst Spot Painting</h2>
+    <canvas id="artCanvas" width="700" height="700"></canvas>
+
+    <script>
+        function drawSpot(ctx, xPos, yPos, size, colour) {
+            ctx.beginPath();
+            ctx.fillStyle = colour;
+            ctx.arc(xPos, yPos, size, 0, Math.PI * 2);
+            ctx.fill();
+        }
+
+        function drawRow(ctx, yPos, startX, gap, size, colours) {
+            for (var j = 0; j < 9; j++) {
+                var xPos = startX + (j * gap);
+                var colour = colours[(j + Math.floor(yPos / gap)) % colours.length];
+                drawSpot(ctx, xPos, yPos, size, colour);
+            }
+        }
+
+        function draw() {
+            var canvas = document.getElementById("artCanvas");
+            var ctx = canvas.getContext("2d");
+            var colours = ["#f4a261", "#e76f51", "#2a9d8f", "#264653", "#e9c46a", "#a8dadc", "#457b9d", "#ff006e"];
+            var xPos = 30;
+            var yPos = 30;
+            var gap = 70;
+            var size = 18;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = "#fffdf7";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            for (var i = 0; i < 9; i++) {
+                drawRow(ctx, yPos + (i * gap), xPos, gap, size, colours);
+            }
+        }
+
+        draw();
+    </script>
+</body>
+</html>

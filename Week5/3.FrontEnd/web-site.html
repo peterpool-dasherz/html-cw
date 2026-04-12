@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="./assets/style1.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="image-box">
+                <img src="./assets/images/English-in-hand-with-words.png" alt="Lỗi hình Logo" />
+            </div>
+            <div class="company">
+                <div>Công ty Trách nhiệm hết hạn</div>
+                <div>Tư vấn giáo dục Vinh Danh</div>
+            </div>
+        </div>
+        <div class="slider">
+            <img name='image-slider' src="./assets/images/sliders/Slider-44.jpg" alt="Lỗi hình Slider-44.jpg" />
+            <img name='image-slider' src="./assets/images/sliders/Slider-55.jpg" alt="Lỗi hình Slider-55.jpg" />
+            <img name='image-slider' src="./assets/images/sliders/Slider-66.jpg" alt="Lỗi hình Slider-44.jpg" />
+        </div>
+        <div class="main-content">
+            <div class="menu">
+                <h5>Menu</h5>
+
+                <ul class="ul-menu">
+                    <li>Menu Item 1</li>
+                    <li>Menu Item 2</li>
+                    <li>Menu Item 3</li>
+                    <li>Menu Item 4</li>
+                </ul>
+            </div>
+            <div class="form">
+                <h2 style="color: white; text-align: center;">TUYỂN BẠN ĐỜI</h2>
+                <form>
+                    <!-- <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username" placeholder="Username"><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" placeholder="Choose your password"><br>
+                    <label for="confirm-password">Confirm Password:</label><br>
+                    <input type="password" id="confirm-password" name="confirm-password"
+                        placeholder="Confirm your password"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Email"><br> -->
+
+
+
+
+
+
+
+
+
+
+                    <div class="input-group">
+                        <!-- <label for="fname">FirstName:</label><br> -->
+                        <input type="text" id="username" name="username" onfocus="focusInputText(this)"
+                            onblur="unFocusInputText(this)">
+                        <div class="label-text">
+                            <img src="./assets/images/user_6051881.png">
+                            <label for="username">UserName:</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <!-- <label for="fname">FirstName:</label><br> -->
+                        <input type="password" id="password" name="password" onfocus="focusInputText(this)"
+                            onblur="unFocusInputText(this)">
+                        <div class="label-text">
+                            <img src="./assets/images/keyhole_14254394.png">
+                            <label for="password">Choose your password:</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <!-- <label for="fname">FirstName:</label><br> -->
+                        <input type="password" id="confirm-password" name="confirm-password" onfocus="focusInputText(this)"
+                            onblur="unFocusInputText(this)">
+                        <div class="label-text">
+                            <img src="./assets/images/keyhole_14254394.png">
+                            <label for="confirm-password">Confirm Password:</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <!-- <label for="fname">FirstName:</label><br> -->
+                        <input type="text" id="email" name="email" onfocus="focusInputText(this)"
+                            onblur="unFocusInputText(this)">
+                        <div class="label-text">
+                            <img src="./assets/images/send-mail_10505742.png">
+                            <label for="email">Email:</label>
+                        </div>
+                    </div>
+
+
+                    <div style="display: flex; flex-direction: row; flex: 2;">
+                        <div class=input-group style="flex: 1;">
+                            <input type="text" id="fname" name="fname" placeholder="FirstName">
+                        </div>
+                        <div class=input-group style="flex: 1;">
+                            <input type="text" id="lname" name="lname" placeholder="LastName">
+                        </div>
+
+                    </div>
+
+                    <div class="input-group" style="height: 40px;">
+                        <select id="gender" name="gender" style="height: 40px;">
+                            <option value="0">Gender</option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                            <option value="3">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group-row">
+                        <input type="checkbox" id="term-agreement" name="term-agreement" value="1">
+                        <label for="term-agreement" style="color: white">Bạn có muốn làm bạn đời của tôi không?</label>
+                    </div>
+
+                    <div class="input-group-row">
+                        <button type="button" class="button-text" onclick="submitTest()">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="list">
+                <h2>List</h2>
+            </div>
+        </div>
+        <div class="footer">Welcome
+            <div>Tôi là footer</div>
+            <img id="img-slider" src="./assets/images/TrainRiolish_650x200.png" alt="Lỗi hình Slider" />
+
+        </div>
+    </div>
+
+    <script>
+        let imgSlider = document.getElementById("img-slider");
+        // if(imgSlider) {
+        //     imgSlider.setAttribute("src", "https://css-tricks.com/wp-content/uploads/2021/09/gap-1.svg");
+        // }
+
+        function focusInputText(inputPointer) {
+            let divInputText = inputPointer.nextElementSibling;
+            console.log("Thẻ div: ", divInputText);
+            if (divInputText) {
+                divInputText.style.display = "none";
+                // divInputText.style.opacity = "0";
+                // divInputText.style.visibility = "hidden";
+                // divInputText.style.height = "0";
+            }
+        }
+
+
+        function unFocusInputText(inputPointer) {
+            let inputValue = inputPointer.value;
+            let divInputText = inputPointer.nextElementSibling;
+            console.log("Thẻ div: ", divInputText);
+            if (inputValue && inputValue.length > 0) {
+                return;
+            }
+            else {
+                if (divInputText) {
+                    divInputText.style.display = "flex";
+                    // divInputText.style.opacity = "1";
+                    // divInputText.style.visibility = "visible";
+                    // divInputText.style.height = "auto";
+                }
+            }
+        }
+
+
+        function submitInfo() {
+            let username = "";
+            let inputUsername = document.getElementById("username");
+            if (inputUsername) {
+                username = inputUsername.value;
+            }
+            console.log("Username: ", username);
+
+
+            let password = "";
+            let inputPassword = document.getElementById("password");
+            if (inputPassword) {
+                password = inputPassword.value;
+            }
+            console.log("Password: ", password);
+
+            let confirmPassword = "";
+            let inputconfirmPassword = document.getElementById("confirm-password");
+            if (inputconfirmPassword) {
+                confirmPassword = inputconfirmPassword.value;
+            }
+            console.log("Confirm Password: ", confirmPassword);
+
+
+            let email = "";
+            let inputEmail = document.getElementById("email");
+            if (inputEmail) {
+                email = inputEmail.value;
+            }
+            console.log("Email: ", email);
+
+            alert("User name là " + username
+                + "\n" + "Password là " + password
+                + "\n" + "Confirm Password là " + confirmPassword
+                + "\n" + "Email là " + email);
+        }
+
+        function submit02() {
+            // let inputUsername = document.getElementById("username");
+            // if (inputUsername) {
+            //     let username = inputUsername.value;
+            //     if (username == "") {
+            //         alert("Username không được để trống");
+            //         return false;
+            //     }
+            //     console.log("Username: ", username);
+            // }
+            let ulMenu = document.getElementsByClassName("ul-menu");
+            if (ulMenu && ulMenu.length > 0) {
+                let arrayLi = ulMenu[0].querySelectorAll("li");
+                if (arrayLi && arrayLi.length > 0) {
+                    for (let i = 0; i < arrayLi.length; i++) {
+                        const element = arrayLi[i];
+                        element.style.color = "red";
+                        // console.log("Menu item: ", element.innerText);
+                    }
+                }
+            }
+        }
+
+        function submitTest() {
+            let massage =""
+            let nodeInputPassword = document.querySelectorAll("input[type='password']");
+            if (nodeInputPassword && nodeInputPassword.length > 0) {
+                let arrayInputPassword = Array.from(nodeInputPassword);
+                arrayInputPassword.map((item, index) => {
+                    massage <= "Input thứ " + (index + 1)+ " là: " + item.value;
+                    if (index < arrayInputPassword.length) {
+                        massage += "\n";
+                    }
+                })
+                alert(massage);
+            }
+        }
+    </script>
+</body>
+
+</html>

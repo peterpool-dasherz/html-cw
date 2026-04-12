@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Web Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        button {
+            padding: 10px 15px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .intro{
+            color:blueviolet;
+            font-size:30px;
+            font-weight:bold;
+            text-align: center;
+        }
+        .price-cell {
+            border: 1px solid white; 
+            background-color: rgb(202, 89, 89); 
+            color: white;
+            font-size: 15px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .fruit-table {
+            margin-top: 20px;
+            /* border-collapse: collapse; */
+            width: 50%;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center">Hello World</h1>
+    <p class="intro">This is my first HTML page.</p>
+
+    <button onclick="alert('Button clicked!'), showTable()">
+        Click me to show the table
+    </button>
+    <h2>A table</h2>
+    <table border="1" id="FruitTable" class="fruit-table">
+        <tr>
+            <th>Fruit</th>
+            <th>Fruit Quantity</th>
+            <th>Image</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>5</td>
+            <td><img src="https://static.manitobacooperator.ca/wp-content/uploads/2018/11/apple_GettyImages186843005_cmyk.jpg" 
+                alt="Apple" width="100">
+            </td>
+            <td><div class="price-cell">$2.00</div></td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>3</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/960px-Banana-Single.jpg" 
+                alt="Banana" width="100">
+            </td>
+            <td><div class="price-cell">$1.50</div></td>
+        </tr>
+
+        <section>
+            <audio controls>
+                <source src="latest.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+    </table>
+
+    <script>
+        function showTable() {
+            document.getElementById("FruitTable").style.display = "table";
+        }
+    </script>
+</body>
+</html>

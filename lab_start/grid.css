@@ -1,0 +1,6 @@
+.content{
+  background-color: rgb(236, 237, 238);
+	/*width: 80%;*/ /*relative size or elastic*/
+	width: 980px;  /*absolute size or static*/
+	margin: auto;
+}
