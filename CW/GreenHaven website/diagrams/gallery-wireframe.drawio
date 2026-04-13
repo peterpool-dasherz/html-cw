@@ -1,27 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="65bd71144e">
+<mxfile host="app.diagrams.net">
   <diagram id="gallery-wireframe" name="Gallery Page Wireframe">
-    <mxGraphModel dx="1200" dy="1500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="2" value="Navigation Bar&#10;[Logo] Home | About | Programmes | Events | Gallery | Contact | Theme Toggle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="50" y="20" width="1100" height="60" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" value="Navigation Bar&#xa;[Logo] Home | About | Programmes | Events | Gallery | Contact | Theme Toggle" vertex="1">
+          <mxGeometry height="60" width="1100" x="50" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Page Banner&#10;Photo Gallery&#10;Click any photo to view it full size." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=2;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="50" y="100" width="1100" height="80" as="geometry"/>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=2;fontSize=12" value="Page Banner&#xa;Photo Gallery&#xa;Click any photo to view it full size." vertex="1">
+          <mxGeometry height="80" width="1100" x="50" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Filter Buttons&#10;All | Garden | Workshops | People | Harvest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="50" y="200" width="1100" height="70" as="geometry"/>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" value="Filter Buttons&#xa;All | Garden | Workshops | People | Harvest" vertex="1">
+          <mxGeometry height="70" width="1100" x="50" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Gallery Grid&#10;9 image tiles&#10;Images with overlay captions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="50" y="290" width="1100" height="620" as="geometry"/>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" value="Gallery Grid&#xa;9 image tiles&#xa;Images with overlay captions" vertex="1">
+          <mxGeometry height="620" width="1100" x="50" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Lightbox Modal&#10;Large image view&#10;Caption&#10;Close button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="330" y="340" width="540" height="260" as="geometry"/>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" value="Lightbox Modal&#xa;Large image view&#xa;Caption&#xa;Close button" vertex="1">
+          <mxGeometry height="260" width="540" x="330" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Footer&#10;Quick Links | Resources | Contact Info | Social Links | Copyright" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#558B2F;strokeColor=#1B5E20;strokeWidth=2;fontSize=12;fontColor=#FFFFFF" parent="1" vertex="1">
-          <mxGeometry x="50" y="940" width="1100" height="80" as="geometry"/>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#558B2F;strokeColor=#1B5E20;strokeWidth=2;fontSize=12;fontColor=#FFFFFF" value="Footer&#xa;Quick Links | Resources | Contact Info | Social Links | Copyright" vertex="1">
+          <mxGeometry height="80" width="1100" x="50" y="940" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
