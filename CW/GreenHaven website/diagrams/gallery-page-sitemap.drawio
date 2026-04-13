@@ -1,37 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="65bd71144e">
+<mxfile host="app.diagrams.net">
   <diagram id="gallery-page-sitemap" name="Gallery Page Sitemap">
-    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="964" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="2" value="Gallery Page (gallery.html)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="260" y="40" width="330" height="60" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;fontStyle=1" value="Gallery Page (gallery.html)" vertex="1">
+          <mxGeometry height="60" width="330" x="260" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Navigation Bar&#10;Home | About | Programmes | Events | Gallery | Contact" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="120" y="140" width="610" height="60" as="geometry"/>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12" value="Navigation Bar&#xa;Home | About | Programmes | Events | Gallery | Contact" vertex="1">
+          <mxGeometry height="60" width="610" x="120" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Page Banner&#10;Photo Gallery&#10;A snapshot of life at GreenHaven - click any photo to view it full size." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="120" y="230" width="610" height="80" as="geometry"/>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" value="Page Banner&#xa;Photo Gallery&#xa;A snapshot of life at GreenHaven - click any photo to view it full size." vertex="1">
+          <mxGeometry height="80" width="610" x="120" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Filter Buttons&#10;All | Garden | Workshops | People | Harvest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="60" y="350" width="190" height="120" as="geometry"/>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Filter Buttons&#xa;All | Garden | Workshops | People | Harvest" vertex="1">
+          <mxGeometry height="120" width="190" x="60" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Gallery Grid&#10;Garden images&#10;Workshop images&#10;People images&#10;Harvest images" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="270" y="350" width="260" height="210" as="geometry"/>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Gallery Grid&#xa;Garden images&#xa;Workshop images&#xa;People images&#xa;Harvest images" vertex="1">
+          <mxGeometry height="210" width="260" x="270" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Lightbox Modal&#10;Large image view&#10;Caption&#10;Close button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="550" y="350" width="220" height="140" as="geometry"/>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Lightbox Modal&#xa;Large image view&#xa;Caption&#xa;Close button" vertex="1">
+          <mxGeometry height="140" width="220" x="550" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Footer&#10;Quick Links | Resources | Contact | Social Links | Copyright" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="120" y="600" width="610" height="70" as="geometry"/>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" value="Footer&#xa;Quick Links | Resources | Contact | Social Links | Copyright" vertex="1">
+          <mxGeometry height="70" width="610" x="120" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="2" target="3" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="3" target="4" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="5" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="6" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="6" target="7" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="7" target="8" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="9" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" source="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
