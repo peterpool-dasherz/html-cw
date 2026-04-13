@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="contact-page-sitemap" name="Contact Page Sitemap">
-    <mxGraphModel dx="964" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           <mxGeometry height="85" width="180" x="550" y="520" as="geometry" />
         </mxCell>
         <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" value="Footer&#xa;Quick Links | Resources | Contact | Social Links | Copyright" vertex="1">
-          <mxGeometry height="70" width="610" x="120" y="750" as="geometry" />
+          <mxGeometry height="70" width="610" x="120" y="690" as="geometry" />
         </mxCell>
         <mxCell id="11" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="3">
           <mxGeometry relative="1" as="geometry" />
