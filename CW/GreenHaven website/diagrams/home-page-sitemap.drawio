@@ -1,0 +1,82 @@
+<mxfile host="65bd71144e">
+    <diagram id="sitemap1" name="Sitemap">
+        <mxGraphModel dx="336" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="home" value="Home (index.html)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="360" y="40" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="about" value="About" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00" parent="1" vertex="1">
+                    <mxGeometry x="60" y="140" width="140" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="programmes" value="Programmes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00" parent="1" vertex="1">
+                    <mxGeometry x="230" y="140" width="140" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="events" value="Events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00" parent="1" vertex="1">
+                    <mxGeometry x="400" y="140" width="140" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="gallery" value="Gallery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00" parent="1" vertex="1">
+                    <mxGeometry x="570" y="140" width="140" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="contact" value="Contact" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00" parent="1" vertex="1">
+                    <mxGeometry x="740" y="140" width="140" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="faqs" value="Members&#39; testimonials" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#8E24AA" parent="1" vertex="1">
+                    <mxGeometry x="160" y="240" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="volunteer" value="Volunteer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#8E24AA" parent="1" vertex="1">
+                    <mxGeometry x="400" y="250" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="plots" value="Community Plots" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0" parent="1" vertex="1">
+                    <mxGeometry x="150" y="400" width="140" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="workshops" value="Workshops" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0" parent="1" vertex="1">
+                    <mxGeometry x="320" y="400" width="140" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="kids" value="Little Sprouts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0" parent="1" vertex="1">
+                    <mxGeometry x="520" y="400" width="140" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="home" target="about" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="home" target="programmes" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="home" target="events" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="home" target="gallery" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="home" target="contact" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#2E7D32;endArrow=classic" parent="1" source="programmes" target="plots" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#2E7D32;endArrow=classic" parent="1" source="programmes" target="workshops" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#2E7D32;endArrow=classic" parent="1" source="programmes" target="kids" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="300" y="220"/>
+                            <mxPoint x="590" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8E24AA;dashed=1;endArrow=classic" parent="1" source="home" target="faqs" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8E24AA;dashed=1;endArrow=classic" parent="1" source="home" target="volunteer" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

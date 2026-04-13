@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="65bd71144e">
+  <diagram id="events-wireframe" name="Events Page Wireframe">
+    <mxGraphModel dx="1200" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Navigation Bar&#10;[Logo] Home | About | Programmes | Events | Gallery | Contact | Theme Toggle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="50" y="20" width="1100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Page Banner&#10;Events &amp; News&#10;Join us for workshops, seasonal celebrations, and community get-togethers." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=2;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="50" y="100" width="1100" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Upcoming Events Section&#10;Five event cards with date badges and details" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="50" y="200" width="1100" height="470" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Event Cards&#10;Spring Planting Festival&#10;Composting Masterclass&#10;Earth Day Clean-Up&#10;Wildflower Seed Bomb Workshop&#10;Summer Solstice BBQ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="60" y="235" width="1080" height="400" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Past Events Section&#10;Three cards showing previous activities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="50" y="700" width="1100" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Past Event Cards&#10;Winter Pruning Workshop&#10;Harvest Festival&#10;School Visit Programme" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="60" y="735" width="1080" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="CTA Section&#10;Never Miss an Event&#10;Get in Touch button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="50" y="1010" width="1100" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Footer&#10;Quick Links | Resources | Contact Info | Social Links | Copyright" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#558B2F;strokeColor=#1B5E20;strokeWidth=2;fontSize=12;fontColor=#FFFFFF" parent="1" vertex="1">
+          <mxGeometry x="50" y="1140" width="1100" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

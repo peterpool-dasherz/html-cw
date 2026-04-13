@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="65bd71144e">
+  <diagram id="home-wireframe" name="Home Page Wireframe">
+    <mxGraphModel dx="1200" dy="1500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="2" value="Navigation Bar&#10;[Logo] Home | About | Programmes | Events | Gallery | Contact | Theme Toggle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="50" y="20" width="1100" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="3" value="Hero Section&#10;Background image&#10;Headline + introduction&#10;Explore Programmes / Get in Touch buttons" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=2;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="50" y="100" width="1100" height="280" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="4" value="Featured Programmes Section&#10;Three-card grid: Plots, Workshops, Kids' Club" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="50" y="410" width="1100" height="250" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="5" value="Programme Card 1&#10;Community Garden Plots" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="70" y="455" width="320" height="180" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="6" value="Programme Card 2&#10;Gardening Workshops" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="440" y="455" width="320" height="180" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="7" value="Programme Card 3&#10;Little Sprouts Kids' Club" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="810" y="455" width="320" height="180" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="8" value="Stats Section&#10;4 animated counters" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="50" y="690" width="1100" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="9" value="Testimonials Section&#10;3 quote cards with author details" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#C2185B;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="50" y="840" width="1100" height="220" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="10" value="Call To Action Section&#10;Ready to Get Growing?&#10;Contact Us / View Events buttons" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="50" y="1090" width="1100" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="11" value="Footer&#10;About | Quick Links | Resources | Contact Info | Social Links | Copyright" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#558B2F;strokeColor=#1B5E20;strokeWidth=2;fontSize=12;fontColor=#FFFFFF" parent="1" vertex="1">
+          <mxGeometry x="50" y="1240" width="1100" height="100" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="65bd71144e">
+  <diagram id="about-page-sitemap" name="About Page Sitemap">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="2" value="About Page (about.html)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="300" y="40" width="260" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="3" value="Navigation Bar&#10;Home | About | Programmes | Events | Gallery | Contact" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="120" y="140" width="610" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="4" value="Page Banner&#10;About Us&#10;Discover the story behind GreenHaven and the people who make it grow." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="120" y="230" width="610" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="5" value="Our Story&#10;History of GreenHaven&#10;Founded in 2018&#10;Image of the garden&#10;CTA: Explore Our Programmes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="60" y="350" width="230" height="170" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="6" value="Our Values&#10;Sustainability&#10;Community&#10;Education&#10;Inclusivity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="310" y="350" width="230" height="170" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="7" value="Meet the Team&#10;Anna Chen&#10;Marcus Obi&#10;Emily Frost&#10;David Park" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="560" y="350" width="230" height="170" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="8" value="Footer&#10;Quick Links | Resources | Contact | Social Links | Copyright" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="120" y="560" width="610" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="7" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
