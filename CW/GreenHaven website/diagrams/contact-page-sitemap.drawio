@@ -1,45 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="65bd71144e">
+<mxfile host="app.diagrams.net">
   <diagram id="contact-page-sitemap" name="Contact Page Sitemap">
-    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="964" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="2" value="Contact Page (contact.html)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="260" y="40" width="330" height="60" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;fontStyle=1" value="Contact Page (contact.html)" vertex="1">
+          <mxGeometry height="60" width="330" x="260" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Navigation Bar&#10;Home | About | Programmes | Events | Gallery | Contact" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="120" y="140" width="610" height="60" as="geometry"/>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12" value="Navigation Bar&#xa;Home | About | Programmes | Events | Gallery | Contact" vertex="1">
+          <mxGeometry height="60" width="610" x="120" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Page Banner&#10;Contact Us&#10;We would love to hear from you. Drop us a message or visit the garden!" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="120" y="230" width="610" height="80" as="geometry"/>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" value="Page Banner&#xa;Contact Us&#xa;We would love to hear from you. Drop us a message or visit the garden!" vertex="1">
+          <mxGeometry height="80" width="610" x="120" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Contact Form&#10;Name, email, subject, enquiry type, message, send button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="60" y="350" width="280" height="190" as="geometry"/>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Contact Form&#xa;Name, email, subject, enquiry type, message, send button" vertex="1">
+          <mxGeometry height="130" width="210" x="60" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Address Card&#10;42 Garden Lane, Millbrook" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="360" y="350" width="170" height="85" as="geometry"/>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Address Card&#xa;42 Garden Lane, Millbrook" vertex="1">
+          <mxGeometry height="85" width="170" x="340" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Opening Hours&#10;Mon-Fri, Saturday, Sunday, Bank Holidays" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="550" y="350" width="180" height="85" as="geometry"/>
+        <mxCell id="llynKJMXnrUF2kKSkvxC-18" edge="1" parent="1" source="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Get In Touch&#10;Phone and email details" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="360" y="455" width="170" height="85" as="geometry"/>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Opening Hours&#xa;Mon-Fri, Saturday, Sunday, Bank Holidays" vertex="1">
+          <mxGeometry height="85" width="180" x="550" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Embedded Map&#10;OpenStreetMap iframe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="550" y="455" width="180" height="85" as="geometry"/>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Get In Touch&#xa;Phone and email details" vertex="1">
+          <mxGeometry height="85" width="170" x="830" y="227.5" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="Footer&#10;Quick Links | Resources | Contact | Social Links | Copyright" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="120" y="590" width="610" height="70" as="geometry"/>
+        <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Embedded Map&#xa;OpenStreetMap iframe" vertex="1">
+          <mxGeometry height="85" width="180" x="550" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="2" target="3" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="3" target="4" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="5" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="6" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="7" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="8" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="9" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="9" target="10" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" value="Footer&#xa;Quick Links | Resources | Contact | Social Links | Copyright" vertex="1">
+          <mxGeometry height="70" width="610" x="120" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" edge="1" parent="1" source="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
