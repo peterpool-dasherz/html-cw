@@ -1,49 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="65bd71144e">
+<mxfile host="app.diagrams.net">
   <diagram id="about-wireframe" name="About Page Wireframe">
-    <mxGraphModel dx="1200" dy="1500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="918" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-
-        <mxCell id="2" value="Navigation Bar&#10;[Logo] Home | About | Programmes | Events | Gallery | Contact | Theme Toggle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="50" y="20" width="1100" height="60" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" value="Navigation Bar&#xa;[Logo] Home | About | Programmes | Events | Gallery | Contact | Theme Toggle" vertex="1">
+          <mxGeometry height="60" width="1100" x="50" y="20" as="geometry" />
         </mxCell>
-
-        <mxCell id="3" value="Page Banner&#10;About Us&#10;Discover the story behind GreenHaven and the people who make it grow." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=2;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="50" y="100" width="1100" height="80" as="geometry"/>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=2;fontSize=12" value="Page Banner&#xa;About Us&#xa;Discover the story behind GreenHaven and the people who make it grow." vertex="1">
+          <mxGeometry height="80" width="1100" x="50" y="100" as="geometry" />
         </mxCell>
-
-        <mxCell id="4" value="Our Story Section&#10;Text column + garden image column&#10;CTA: Explore Our Programmes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="50" y="200" width="1100" height="250" as="geometry"/>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" value="Our Story Section&#xa;Text column + garden image column&#xa;CTA: Explore Our Programmes" vertex="1">
+          <mxGeometry height="250" width="1100" x="50" y="200" as="geometry" />
         </mxCell>
-
-        <mxCell id="5" value="Our Story Text&#10;• History of GreenHaven&#10;• Founded in 2018&#10;• 60+ plots, greenhouse, composting station" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="60" y="215" width="530" height="220" as="geometry"/>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" value="Our Story Text&#xa;• History of GreenHaven&#xa;• Founded in 2018&#xa;• 60+ plots, greenhouse, composting station" vertex="1">
+          <mxGeometry height="167.5" width="400" x="80" y="241.25" as="geometry" />
         </mxCell>
-
-        <mxCell id="6" value="Our Story Image&#10;[Aerial view of the garden]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#00897B;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="610" y="215" width="530" height="220" as="geometry"/>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#00897B;fontSize=11" value="Our Story Image&#xa;[Aerial view of the garden]" vertex="1">
+          <mxGeometry height="170" width="400" x="710" y="240" as="geometry" />
         </mxCell>
-
-        <mxCell id="7" value="Our Values Section&#10;4 icon cards: Sustainability, Community, Education, Inclusivity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="50" y="470" width="1100" height="320" as="geometry"/>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" value="Our Values Section&#xa;4 icon cards: Sustainability, Community, Education, Inclusivity" vertex="1">
+          <mxGeometry height="320" width="1100" x="50" y="470" as="geometry" />
         </mxCell>
-
-        <mxCell id="8" value="Values Grid&#10;4 cards in a row" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="60" y="555" width="1080" height="180" as="geometry"/>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" value="Values Grid&#xa;4 cards in a row" vertex="1">
+          <mxGeometry height="180" width="1080" x="60" y="555" as="geometry" />
         </mxCell>
-
-        <mxCell id="9" value="Meet the Team Section&#10;4 profile cards: Anna, Marcus, Emily, David" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="50" y="810" width="1100" height="420" as="geometry"/>
+        <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;fontSize=12" value="Meet the Team Section&#xa;4 profile cards: Anna, Marcus, Emily, David" vertex="1">
+          <mxGeometry height="420" width="1100" x="50" y="810" as="geometry" />
         </mxCell>
-
-        <mxCell id="10" value="Team Grid&#10;• Garden Director&#10;• Workshop Coordinator&#10;• Volunteer Manager&#10;• Youth Programme Lead" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="60" y="895" width="1080" height="220" as="geometry"/>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#81C784;fontSize=11" value="Team Grid&#xa;• Garden Director&#xa;• Workshop Coordinator&#xa;• Volunteer Manager&#xa;• Youth Programme Lead" vertex="1">
+          <mxGeometry height="220" width="1080" x="60" y="895" as="geometry" />
         </mxCell>
-
-        <mxCell id="11" value="Footer&#10;Quick Links | Resources | Contact Info | Social Links | Copyright" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#558B2F;strokeColor=#1B5E20;strokeWidth=2;fontSize=12;fontColor=#FFFFFF" parent="1" vertex="1">
-          <mxGeometry x="50" y="1260" width="1100" height="80" as="geometry"/>
+        <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#558B2F;strokeColor=#1B5E20;strokeWidth=2;fontSize=12;fontColor=#FFFFFF" value="Footer&#xa;Quick Links | Resources | Contact Info | Social Links | Copyright" vertex="1">
+          <mxGeometry height="80" width="1100" x="50" y="1260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
