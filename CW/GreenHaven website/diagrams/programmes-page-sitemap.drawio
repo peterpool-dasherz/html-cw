@@ -1,53 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="65bd71144e">
+<mxfile host="app.diagrams.net">
   <diagram id="programmes-page-sitemap" name="Programmes Page Sitemap">
-    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2333" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="2" value="Programmes Page (programmes.html)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="220" y="40" width="410" height="60" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;fontStyle=1" value="Programmes Page (programmes.html)" vertex="1">
+          <mxGeometry height="60" width="410" x="220" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Navigation Bar&#10;Home | About | Programmes | Events | Gallery | Contact" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="120" y="140" width="610" height="60" as="geometry"/>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12" value="Navigation Bar&#xa;Home | About | Programmes | Events | Gallery | Contact" vertex="1">
+          <mxGeometry height="60" width="610" x="120" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Page Banner&#10;Our Programmes&#10;Activities and services for gardeners of all ages and abilities." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="120" y="230" width="610" height="80" as="geometry"/>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" value="Page Banner&#xa;Our Programmes&#xa;Activities and services for gardeners of all ages and abilities." vertex="1">
+          <mxGeometry height="80" width="610" x="120" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Community Garden Plots&#10;Year-round access&#10;£5 / month" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="40" y="340" width="220" height="140" as="geometry"/>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Community Garden Plots&#xa;Year-round access&#xa;£5 / month" vertex="1">
+          <mxGeometry height="140" width="220" x="40" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Gardening Workshops&#10;First Saturday each month&#10;£8 / session" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="280" y="340" width="220" height="140" as="geometry"/>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Gardening Workshops&#xa;First Saturday each month&#xa;£8 / session" vertex="1">
+          <mxGeometry height="140" width="220" x="280" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Little Sprouts Kids' Club&#10;Every Saturday 10 AM - 12 PM&#10;Free for members" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="520" y="340" width="220" height="140" as="geometry"/>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Little Sprouts Kids&#39; Club&#xa;Every Saturday 10 AM - 12 PM&#xa;Free for members" vertex="1">
+          <mxGeometry height="140" width="220" x="520" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Composting Programme&#10;Drop-off anytime during open hours&#10;Free to use" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="40" y="510" width="220" height="140" as="geometry"/>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Composting Programme&#xa;Drop-off anytime during open hours&#xa;Free to use" vertex="1">
+          <mxGeometry height="140" width="220" x="-210" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Volunteer Programme&#10;Flexible hours&#10;Free - all welcome" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="280" y="510" width="220" height="140" as="geometry"/>
+        <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Volunteer Programme&#xa;Flexible hours&#xa;Free - all welcome" vertex="1">
+          <mxGeometry height="140" width="220" x="1020" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="Harvest Share Scheme&#10;Seasonal June - October&#10;£4 / box weekly" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="520" y="510" width="220" height="140" as="geometry"/>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Harvest Share Scheme&#xa;Seasonal June - October&#xa;£4 / box weekly" vertex="1">
+          <mxGeometry height="140" width="220" x="770" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="Membership CTA&#10;Become a Member&#10;Join GreenHaven Today button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="200" y="690" width="400" height="100" as="geometry"/>
+        <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=11" value="Membership CTA&#xa;Become a Member&#xa;Join GreenHaven Today button" vertex="1">
+          <mxGeometry height="100" width="400" x="680" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="Footer&#10;Quick Links | Resources | Contact | Social Links | Copyright" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="120" y="820" width="610" height="70" as="geometry"/>
+        <mxCell id="12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12" value="Footer&#xa;Quick Links | Resources | Contact | Social Links | Copyright" vertex="1">
+          <mxGeometry height="70" width="610" x="-40" y="595" as="geometry" />
         </mxCell>
-        <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="2" target="3" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="3" target="4" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="5" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="6" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="7" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="8" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="9" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="4" target="10" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="10" target="11" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" parent="1" source="11" target="12" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="13" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;endArrow=classic" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
